@@ -27,10 +27,20 @@ public class PessoaTeste {
         recemNascido.idade++; // envelhecer
         recemNascido.dizOla();
 
-        // chamda de métodos
+        // chamada de métodos
         pessoa4.dizOla();
         pessoa4.mostrarImc();
         double imcPessoa4 = pessoa4.calculaImc();
         System.out.println(imcPessoa4);
+
+        // Exemplo pessoas
+        Pessoa pedro = new Pessoa("Pedro", "Carlos", 29, 1.8, 80);
+
+        Pessoa joao = new Pessoa("João", "Carlos", 30, 1.75, 90);
+
+
+        pedro.cumprimentar(joao);
+        pedro.cumprimentar(joao);
+        pedro.comer("Batata");
     }
 }
