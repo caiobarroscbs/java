@@ -1,6 +1,4 @@
 package aulas.poo;
-
-
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
@@ -24,7 +22,7 @@ public class Pessoa {
 
     }
 
-    Pessoa(String nome, String sobrenome, int idade, double altura, double peso) {
+    Pessoa(String nome, String sobrenome, int idade, double altura, double peso) { // construtor
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.idade = idade;
